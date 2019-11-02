@@ -9,5 +9,28 @@ header{
     background-image: url(img/banner.png);
     height: 80vh;
     background-size: cover;
-/* tentei arrumar a bordinha que ta sobrando no baner e n deu n */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+.titulo{
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+    border: 2px solid darkorchid;
+    display: flex;
+    align-items: center;
+
+
+}
+.titulo h1{
+    color: honeydew; 
+    border: 2px solid honeydew;
+    width: 10%;
+    margin: 0vh 10vh;
+}
+.titulo p{
+    border: 2px solid rgb(76, 0, 252);
+    flex-direction: column;
 }
