@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: rgb(43, 216, 43);
+    height: 10px;
+}
+header{
+    background-image: url(img/banner.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+/* tentei arrumar a bordinha que ta sobrando no baner e n deu n */
+}
