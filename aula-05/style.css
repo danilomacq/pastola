@@ -3,11 +3,11 @@ body{
 }
 nav{
     background-color: rgb(43, 216, 43);
-    height: 10px;
+    height: 1.5vh;
 }
 header{
     background-image: url(img/banner.png);
     height: 80vh;
-    background-repeat: no-repeat;
+    background-size: cover;
 /* tentei arrumar a bordinha que ta sobrando no baner e n deu n */
 }
