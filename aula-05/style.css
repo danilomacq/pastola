@@ -73,3 +73,23 @@ section{
     border: 8px solid rgb(43, 216, 43);
     margin: 10px;
 }
+footer{
+    
+    background-color: rgb(136, 133, 133);
+    height: 10vh;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    /* padding: 3.4vh 50vh;  "ESSE SE N DER BOM O QUE TA"*/
+    padding: 1% 25%;
+}
+div a{
+    font-family: 'Signika', sans-serif;
+    text-decoration: none;
+    color: rgb(53, 48, 48);
+    font-weight: bold;
+}
