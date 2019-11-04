@@ -91,6 +91,51 @@ section .section__icone{
     width: 25%;
 }
 
+.section__cadastro{
+    background-color: #e3e3e3;
+}
+
+.section__cadastro .cadastro{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+
+
+.section__cadastro iframe{
+    border-radius: 5px;
+}
+
+.section__cadastro input:nth-of-type(1){
+    border: 1px solid #d3d3d3;
+    border-radius: 10px 0 0 10px;
+    padding: 1%;
+    height: 20px;
+}
+
+.section__cadastro input:nth-of-type(2){
+    padding: 1%;
+    height: 38px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background-color: green;
+}
+
+
+.section__depoimentos{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 section .icone{
     background-color: rgb(43, 216, 43);
     border-radius: 50px;
@@ -111,7 +156,7 @@ footer{
     -ms-align-items: center;
     align-items: center;
     justify-content: center;
-    background-color: rgb(136, 133, 133);
+    background-color: #e3e3e3;
     height: 10vh;
 }
 footer div{
