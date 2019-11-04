@@ -103,18 +103,23 @@ section .icone{
 }
 
 footer{
-
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(136, 133, 133);
     height: 10vh;
 }
 footer div{
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    border: 1px solid red;
-    /* padding: 3.4vh 50vh;  "ESSE SE N DER BOM O QUE TA"*/
-    padding: 1% 25%;
+    width: 50%;
 }
 div a{
     font-family: 'Signika', sans-serif;
