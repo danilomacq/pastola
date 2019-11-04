@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 nav{
     background-color: rgb(43, 216, 43);
@@ -12,37 +13,73 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
-    flex-wrap: wrap;
 }
 div{
-     flex-wrap: wrap;
+   flex-wrap: wrap;
 }
-.titulo{
-    margin: 0 auto;
-    width: 80%;
-    height: 40%;
-    border: 2px solid darkorchid;
+.header__titulo{ 
+    width: 30%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
-.titulo h1{
+.header__titulo h1{
     color: honeydew; 
-    border: 2px solid honeydew;
-    width: 100%;
-    margin: 0vh 0vh;
+    font-size: 3em;
+    font-weight: normal;
+    margin: 0;
     font-family: 'Pacifico', cursive;
 }
-.titulo p{
-    margin: 0% 0% 10% 0%;
-    width: 80%;
-    height: %;
-    border: 2px solid rgb(153, 240, 232);
+
+.header__titulo .ponto-verde{
+    color:green;
+}
+
+.header__titulo p{
+    font-size: 1.5em;
     display: flex;
     align-items: center;
-
+    color: #ffffff;
 }
+
+.header__icones{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.header__icones div{
+    border-radius: 100%;
+    opacity: .5; /* pra deixar os botões meio transparentes */
+    background-color: #000;
+    padding:2%;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.header__icones div img{
+    width: 20px;
+    height: auto;
+}
+
+.header__icones div:hover{
+    cursor:pointer;
+    opacity: 1; /* no hover tira a transparência */
+    background-color: green;
+}
+
+.header__mao{
+    align-self:flex-end;
+}
+
+.header__mao img{
+    width: 350px;
+    vertical-align: bottom; /*para grudar a imagem embaixo*/
+}
+
 section{
     margin: 0vh 25vh;
     display: flex;
@@ -74,7 +111,7 @@ section{
     margin: 10px;
 }
 footer{
-    
+
     background-color: rgb(136, 133, 133);
     height: 10vh;
 }
