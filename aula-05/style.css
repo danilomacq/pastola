@@ -50,7 +50,8 @@ div{
     display: flex;
 }
 
-.header__icones div{
+.header__icones a{
+    display: block;
     border-radius: 100%;
     opacity: .5; /* pra deixar os botões meio transparentes */
     background-color: #000;
@@ -60,13 +61,12 @@ div{
     margin-right: 5px;
 }
 
-.header__icones div img{
+.header__icones a img{
     width: 20px;
     height: auto;
 }
 
-.header__icones div:hover{
-    cursor:pointer;
+.header__icones a:hover{
     opacity: 1; /* no hover tira a transparência */
     background-color: green;
 }
