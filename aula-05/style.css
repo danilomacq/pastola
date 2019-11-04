@@ -77,39 +77,31 @@ div{
 
 .header__mao img{
     width: 350px;
-    vertical-align: bottom; /*para grudar a imagem embaixo*/
+    vertical-align: bottom; /* para grudar a imagem embaixo */
 }
 
 section{
-    margin: 0vh 25vh;
     display: flex;
-    justify-content: space-between;
-    border: 1px solid red;
+    justify-content: space-around;
 }
-.icone1{
+
+section .section__icone{
+    margin: 5% 0;
+    text-align: center;
+    width: 25%;
+}
+
+section .icone{
     background-color: rgb(43, 216, 43);
     border-radius: 50px;
-    justify-content: center;
     display: flex;
-    border: 8px solid rgb(43, 216, 43);
-    margin: 10px;
-}
-.icone2{
-    background-color: rgb(43, 216, 43);
-    border-radius: 50px;
+    align-items: center;
     justify-content: center;
-    display: flex;
-    border: 8px solid rgb(43, 216, 43);
-    margin: 10px;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
 }
-.icone3{
-    background-color: rgb(43, 216, 43);
-    border-radius: 50px;
-    justify-content: center;
-    display: flex;
-    border: 8px solid rgb(43, 216, 43);
-    margin: 10px;
-}
+
 footer{
 
     background-color: rgb(136, 133, 133);
