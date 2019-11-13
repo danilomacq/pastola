@@ -8,12 +8,12 @@ class Mamiferos():
         self.rabo = rabo
         self.cor = cor
 
-    def comer():
+    def comer(self):
         print("comendo")
-    def fazer_som():
+    def fazer_som(self):
         print("som")
 
 mami = Mamiferos("Curto", "Doguinhos Caninus", True, "Caramelo")
 mami2 = Mamiferos("Longo", "Agrarios Monata", False, "Purple")
 
-print(mami.especie)
+mami.fazer_som()
