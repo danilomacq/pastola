@@ -17,3 +17,15 @@ mami = Mamiferos("Curto", "Doguinhos Caninus", True, "Caramelo")
 mami2 = Mamiferos("Longo", "Agrarios Monata", False, "Purple")
 
 mami.fazer_som()
+
+class Gato(Mamiferos):
+    def __init__(self, pelo, especie, rabo, cor, bigodes):
+        super().__init__(pelo, especie, rabo, cor)
+        self.bigodes = bigodes
+    def fazer_som(self):
+        print("EU TUDO")
+
+gatinho = Gato("super curto", "peladus egiptum", True, "Bege Orgânico", 5)
+gatinho.fazer_som()
+
+ 
